@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1NXo0N1r6s49WUhYhFWqCE1-3yKnIqTtq
 """
 
-pip install streamlit tika transformers torch
-
 from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
